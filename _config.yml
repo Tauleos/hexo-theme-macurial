@@ -1,0 +1,19 @@
+menu:
+    首页: /
+    博客: /archives/
+    标签: /tags/
+    GitHub: https://github.com/Tauleos
+
+favicon: /favicon.png
+logo: /favicon.png
+
+# Comment
+# e.g disqus: seansun
+gittalk: true
+
+# Analytics
+# google-analytics:
+# ga: UA-xxxxxxxx-x
+
+# Copyright Infomation
+startyear: 2017
