@@ -1,7 +1,18 @@
 .copyright
-    - var hexoURL = "https://hexo.io/";
-    - var apolloURL = "https://github.com/pinggod/hexo-theme-apollo";
     - var currentDate = new Date();
     - var year = currentDate.getFullYear();
     - year = year == theme.startyear ? year : theme.startyear + ' - ' + year;
-    p © #{year} #[a(href=config.url)!= config.author], powered by #[a(href=hexoURL, target="_blank") Hexo] and #[a(href=apolloURL, target="_blank") hexo-theme-apollo].
+    p#host_by
+        span#busuanzi_container_site_pv
+            | &nbsp;本站总访问量 &nbsp;
+            span#busuanzi_value_site_pv
+                i(class='fa fa-spinner')
+            |  次,
+        span#busanzi_container_site_uv
+            | &nbsp;本站总访问人数 &nbsp;
+            span#busuanzi_value_site_uv
+                i(class='fa fa-spinner')
+            |  次.
+
+    p © #{year} created by#[a(href=config.url)!= config.author],Looking for better life and peace.
+    script(src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' async)
