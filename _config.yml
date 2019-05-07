@@ -1,7 +1,7 @@
 menu:
-    首页: /
-    博客: /archives/
-    标签: /tags/
+    Home: /
+    Archives: /archives/
+    Tags: /tags/
     GitHub: https://github.com/Tauleos
 
 favicon: /favicon.png
