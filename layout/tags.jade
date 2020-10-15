@@ -3,18 +3,13 @@ extends partial/layout
 block container
     include mixins/post
     .archive
-        h2(class='archive-year')= 'Tag Cloud'
+        //- h2(class='archive-year')= 'Tag Cloud'
         script(type='text/javascript', charset='utf-8', src=url_for('js/tagcloud.js'))
         script(type='text/javascript', charset='utf-8', src=url_for('js/tagcanvas.js'))
 
         #myCanvasContainer.widget.tagCloud(align='center')
             canvas#resCanvas(width='500',height='500',style='width=100%')
                 !=tagcloud()
-            //- !=tagcloud()
-
-block pagination
-    include mixins/paginator
-    +home()
 
 block copyright
     include partial/copyright
