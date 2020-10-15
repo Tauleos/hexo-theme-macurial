@@ -14,9 +14,15 @@ body {
     font-size: 15px;
     line-height: 1.6;
     background-color: #fff;
-    font-family: 'sourcesanspro', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Merriweather', sans-serif;
 }
-
+.nav-list-link,
+.post-title{
+    font-family: Montserrat, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+}
 ul.nav,
 ul.post-list {
     margin: 0;
